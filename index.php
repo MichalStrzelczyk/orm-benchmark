@@ -14,7 +14,7 @@ $di->setShared(
             'dbname' => 'postgres',
             'port' => 5432,
             'username' => 'postgres',
-            'password' => 'Mamma1.2',
+            'password' => '******',
         ];
 
         $connection = new \Phalcon\Db\Adapter\Pdo\Postgresql($config);
@@ -31,7 +31,7 @@ $di->setShared(
             5432,
             'postgres',
             'postgres',
-            'Mamma1.2'
+            '***************'
         );
 
         $storageManager = new \Maleficarum\Storage\Manager();
@@ -56,7 +56,7 @@ $di->setShared(
         $dbParams = array(
             'driver'   => 'pdo_pgsql',
             'user'     => 'postgres',
-            'password' => 'Mamma1.2',
+            'password' => '*********',
             'dbname'   => 'postgres',
             'host'   => '172.20.0.3',
             'porrt'   => 5432,
@@ -71,7 +71,7 @@ $di->setShared(
 $di->setShared(
     'pdo',
     function () {
-        return new \PDO('pgsql:dbname=postgres;port=5432;host=172.20.0.3;','postgres','Mamma1.2');
+        return new \PDO('pgsql:dbname=postgres;port=5432;host=172.20.0.3;','postgres','*******');
     }
 );
 
