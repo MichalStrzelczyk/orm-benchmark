@@ -1,0 +1,20 @@
+{
+    "name": "digitalfarm/orm-benchmark",
+    "description": "Phalcon ORM benchmark",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michal Strzelczyk",
+            "email": "kontakt@digitalfarm.pl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "require": {
+        "maleficarum/storage": "^3.1",
+        "doctrine/orm": "^2.6"
+    }
+}
